@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Xcorpio Responde</title>
+</head>
+<body>
+    <main>
+        <h1 style="margin-bottom: 1rem;">Xcorpio responde</h1>
+        <p  style="margin-bottom: 1rem;">Calo es una inteligencia artifical muy formal, cada vez que formules la pregunta, hay que decirle la frase mágica</p>
+        <h3>Formula la pregunta</h3>
+        <input type="text"  id="pregunta">
+        <h3>No te olvides de la frase mágica</h3>
+        <input id="frase" type="text" >
+        <div id="tooltip-container">
+            
+            <span id="icono">i</span>
+            <p id="tooltip" class="escondido">Xcorpio, por favor me podrias contestar</p>
+        </div>
+        <div>
+            <button id="preguntar">Preguntar</button>
+            <button id="reiniciar">Reiniciar</button>
+        </div>
+        <p id="respuesta">Hazme la pregunta</p>
+    </main>
+    
+    <script src="index.js" defer></script>
+</body>
+</html>
